@@ -4,7 +4,7 @@ from datetime import date
 def calculate_age(birthday):
     today = date.today()
 
-    # Check if the birthdate is in the future
+    # Check if the birthdate is in the future. 
     if today < birthday:
         return "Invalid birthdate. Please enter a valid date."
 
